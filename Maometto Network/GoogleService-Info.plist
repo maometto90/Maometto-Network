@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>461465068058-7v7kph5rvq5a8vnli68rd0l80sdve10l.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.461465068058-7v7kph5rvq5a8vnli68rd0l80sdve10l</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBxiJkKqyufv7ewywblF98GyDwn_kS1pKg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>461465068058</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mkhalaf.Maometto-Network</string>
+	<key>PROJECT_ID</key>
+	<string>maometto-network</string>
+	<key>STORAGE_BUCKET</key>
+	<string>maometto-network.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:461465068058:ios:552d4158e7b4dc5b</string>
+	<key>DATABASE_URL</key>
+	<string>https://maometto-network.firebaseio.com</string>
+</dict>
+</plist>
