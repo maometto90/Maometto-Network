@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		754832451FD1D6050056BAC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754832441FD1D6050056BAC0 /* AppDelegate.swift */; };
-		754832471FD1D6050056BAC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754832461FD1D6050056BAC0 /* ViewController.swift */; };
+		754832471FD1D6050056BAC0 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754832461FD1D6050056BAC0 /* SignInVC.swift */; };
 		7548324A1FD1D6050056BAC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 754832481FD1D6050056BAC0 /* Main.storyboard */; };
 		7548324C1FD1D6050056BAC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7548324B1FD1D6050056BAC0 /* Assets.xcassets */; };
 		7548324F1FD1D6050056BAC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7548324D1FD1D6050056BAC0 /* LaunchScreen.storyboard */; };
+		754832571FD1D6590056BAC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 754832561FD1D6580056BAC0 /* GoogleService-Info.plist */; };
+		DD0F9CCD1D603676CE2D2F0D /* Pods_Maometto_Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68DF8923B97251A3D544BE3 /* Pods_Maometto_Network.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D74009CC6D8B5964C913551 /* Pods-Maometto Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maometto Network.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Maometto Network/Pods-Maometto Network.debug.xcconfig"; sourceTree = "<group>"; };
+		572149C62553590D91D1D63C /* Pods-Maometto Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Maometto Network.release.xcconfig"; path = "Pods/Target Support Files/Pods-Maometto Network/Pods-Maometto Network.release.xcconfig"; sourceTree = "<group>"; };
 		754832411FD1D6050056BAC0 /* Maometto Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maometto Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		754832441FD1D6050056BAC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		754832461FD1D6050056BAC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		754832461FD1D6050056BAC0 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		754832491FD1D6050056BAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7548324B1FD1D6050056BAC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7548324E1FD1D6050056BAC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		754832501FD1D6050056BAC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754832561FD1D6580056BAC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C68DF8923B97251A3D544BE3 /* Pods_Maometto_Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Maometto_Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0F9CCD1D603676CE2D2F0D /* Pods_Maometto_Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				754832431FD1D6050056BAC0 /* Maometto Network */,
 				754832421FD1D6050056BAC0 /* Products */,
+				AE6A6B2427A514B6AA6C4355 /* Pods */,
+				E3CD3720C6F79ABDF107A609 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +63,56 @@
 		754832431FD1D6050056BAC0 /* Maometto Network */ = {
 			isa = PBXGroup;
 			children = (
+				7548325A1FD1D9630056BAC0 /* Controller */,
+				754832591FD1D95D0056BAC0 /* View */,
+				754832581FD1D9550056BAC0 /* Model */,
 				754832441FD1D6050056BAC0 /* AppDelegate.swift */,
-				754832461FD1D6050056BAC0 /* ViewController.swift */,
 				754832481FD1D6050056BAC0 /* Main.storyboard */,
 				7548324B1FD1D6050056BAC0 /* Assets.xcassets */,
 				7548324D1FD1D6050056BAC0 /* LaunchScreen.storyboard */,
 				754832501FD1D6050056BAC0 /* Info.plist */,
+				754832561FD1D6580056BAC0 /* GoogleService-Info.plist */,
 			);
 			path = "Maometto Network";
+			sourceTree = "<group>";
+		};
+		754832581FD1D9550056BAC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		754832591FD1D95D0056BAC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				754832461FD1D6050056BAC0 /* SignInVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7548325A1FD1D9630056BAC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE6A6B2427A514B6AA6C4355 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D74009CC6D8B5964C913551 /* Pods-Maometto Network.debug.xcconfig */,
+				572149C62553590D91D1D63C /* Pods-Maometto Network.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3CD3720C6F79ABDF107A609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68DF8923B97251A3D544BE3 /* Pods_Maometto_Network.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 754832531FD1D6050056BAC0 /* Build configuration list for PBXNativeTarget "Maometto Network" */;
 			buildPhases = (
+				8204DBED6B5A93FA48E8F58B /* [CP] Check Pods Manifest.lock */,
 				7548323D1FD1D6050056BAC0 /* Sources */,
 				7548323E1FD1D6050056BAC0 /* Frameworks */,
 				7548323F1FD1D6050056BAC0 /* Resources */,
+				F3F9658D7B5CDCEB41CC53A0 /* [CP] Embed Pods Frameworks */,
+				A9186032C5D2B2D7BCF8BA49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7548324F1FD1D6050056BAC0 /* LaunchScreen.storyboard in Resources */,
+				754832571FD1D6590056BAC0 /* GoogleService-Info.plist in Resources */,
 				7548324C1FD1D6050056BAC0 /* Assets.xcassets in Resources */,
 				7548324A1FD1D6050056BAC0 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +186,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8204DBED6B5A93FA48E8F58B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Maometto Network-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9186032C5D2B2D7BCF8BA49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Maometto Network/Pods-Maometto Network-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F9658D7B5CDCEB41CC53A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Maometto Network/Pods-Maometto Network-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Maometto Network/Pods-Maometto Network-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7548323D1FD1D6050056BAC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				754832471FD1D6050056BAC0 /* ViewController.swift in Sources */,
+				754832471FD1D6050056BAC0 /* SignInVC.swift in Sources */,
 				754832451FD1D6050056BAC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +387,7 @@
 		};
 		754832541FD1D6050056BAC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D74009CC6D8B5964C913551 /* Pods-Maometto Network.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +403,7 @@
 		};
 		754832551FD1D6050056BAC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572149C62553590D91D1D63C /* Pods-Maometto Network.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

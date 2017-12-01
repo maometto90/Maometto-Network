@@ -1,0 +1,6 @@
+framework module Pods_Maometto_Network {
+  umbrella header "Pods-Maometto Network-umbrella.h"
+
+  export *
+  module * { export * }
+}
